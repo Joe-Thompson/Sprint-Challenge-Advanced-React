@@ -9,8 +9,9 @@ const PlayerCard = ({player}) => {
     console.log(player);
 
     return (
+        // eslint-disable-next-line jsx-a11y/aria-role
         <div className='playerCard'>
-            <Card>
+            <Card role='card'>
             <CardBody>
             <CardTitle className='title'>Name - {player.name}</CardTitle>
             <CardSubtitle className='country'>Country - {player.country}</CardSubtitle>

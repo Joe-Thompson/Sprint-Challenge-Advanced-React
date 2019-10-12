@@ -11,7 +11,8 @@ const Navbar = () => {
         <nav className="navbar">
             <h1>Woman's World Cup Players</h1>
             <div className="dark-mode__toggle">
-                <div
+                {/* eslint-disable-next-line jsx-a11y/aria-role */}
+                <div role='toggleButton'
                     onClick={toggleMode}
                     className={darkMode ? 'toggle toggled' : 'toggle'}
                 />
