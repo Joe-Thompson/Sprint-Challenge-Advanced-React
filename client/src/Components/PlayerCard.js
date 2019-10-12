@@ -12,6 +12,7 @@ const PlayerCard = ({player}) => {
         // eslint-disable-next-line jsx-a11y/aria-role
         <div className='playerCard'>
             <Card role='card'>
+            <CardImg src='https://sportsbetting.legal/wp-content/uploads/2019/07/FIFA-Womens.jpg' alt='missing' />
             <CardBody>
             <CardTitle className='title'>Name - {player.name}</CardTitle>
             <CardSubtitle className='country'>Country - {player.country}</CardSubtitle>

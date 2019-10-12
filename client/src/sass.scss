@@ -162,6 +162,12 @@ img {
   font-family: sans-serif;
 }
 
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
 .navbar {
   align-items: center;
   border-bottom: 1px solid rgb(221, 221, 221);
@@ -176,7 +182,7 @@ img {
 }
 
 .dark-mode__toggle {
-  background: papayawhip;
+  background: lightgreen;
   border-radius: 50px;
   border: 1px solid black;
   height: 20px;
@@ -185,7 +191,7 @@ img {
 }
 
 .toggle {
-  background: #f68819;
+  background: #008000;
   border-radius: 50px;
   height: 18px;
   left: 0;
@@ -199,17 +205,27 @@ img {
 }
 
 .card {
-  width: 30rem;
   margin: 2rem 2rem;
   display: flex;
   padding: 2rem;
   box-shadow: 0 4px 5px 0 rgba(0,0,0,0.14), 0 1px 10px 0 rgba(0,0,0,0.12), 0 2px 4px -1px rgba(0,0,0,0.3);
   -webkit-box-shadow: 0 4px 5px 0 rgba(0,0,0,0.14), 0 1px 10px 0 rgba(0,0,0,0.12), 0 2px 4px -1px rgba(0,0,0,0.3);
   font-size: 2rem;
+  line-height: 1.8;
+  font-family: 'Raleway', sans-serif;
+  border-radius: 2rem;
+}
+
+img {
+  width: 20rem;
+  height: 10rem;
+  margin-right: 2rem;
+  border-radius: .8rem;
 }
 
 .playerCard {
-  width: fit-content;
+  width: 60rem;
+  height: auto;
   margin: 2rem 2rem;
 }
 
