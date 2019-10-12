@@ -66,3 +66,26 @@ This section has moved here: https://facebook.github.io/create-react-app/docs/de
 ### `npm run build` fails to minify
 
 This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+
+Self-Study/Essay Questions
+Demonstrate your understanding of this Sprint's concepts by answering the following free-form questions. Edit the ANSWERS.md file to include your answers after each question. Make sure to leave a blank line above and below your answer so it is clear and easy to read by your project manager.
+
+ Why would you use class component over function components (removing hooks from the question)?
+ 
+        A class component allows you to control life cycle events.
+ 
+ Name three lifecycle methods and their purposes.
+ 
+    Component did mount, this phase of a components life is where it is created in memory, and a good place to use an api call, mounting does not mean rendering to the user.
+    component did update, this phase is where something in the components state updated and react will now re render using the updated state
+    component will unmount, with the components dying breath it will run this last chunk of code, cleaning up the mess it made, or sending out one last bit of state before it rides off into the sunset
+ 
+ What is the purpose of a custom hook?
+ 
+    To add additional logic to the (useState or useEffect) hooks
+ 
+ Why is it important to test our apps?
+ 
+    The simplest answer is to trust our code.  As an app grows a function or bit of state may be overlooked and return something we did not expect,
+    writing test’s allows us to test chucks of our code then forget about that chuck till we find a failed test.  Testing also allows us to weed out
+    bugs that may not be noticeable to use at first glance, or may not surface and allows to protect the app from regression. 
